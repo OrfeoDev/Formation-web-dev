@@ -1,0 +1,20 @@
+Algorithme-cuisson des pates
+permet au robot de cuire des pates et de les egoutter
+
+VARIABLE
+quantite_pates = 1kg
+quantité_sel = 5 g
+
+DeBUT
+prendre de la casserole
+mettre de l'eau dans la casserole jusqu'a ce qu'elle soit pleine
+allumer le feu de cuisson(fort)
+mettre casserole sur le feu
+verser 5g de sel dans la casserole
+attendre que l'eau  soit a la temperature point_ebullition
+rajouter 1kg de pates dans la casseroles
+attendre 8 min
+eteindre le feu
+mettre la point dans l'evier
+verser le contenu de la casserole dans une passoire
+Fin

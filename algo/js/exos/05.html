@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Exercice 5</title>
+
+</head>
+<body>
+    Objectif:  a partir de l'age d'un joueur, renvoyer la categorie sportive lui correspondant
+    <script>
+        let a = +prompt("Entrez le premier nombre"); 
+        let b = +prompt("Entrez le deuxieme nombre");
+        let resultat = 0;
+        //  pour ne pas prendre en compte a et b , on commence a a + 1
+        // et on s'arrete juste avant b à l'aide de l'inferiorité stricte
+         for (let i = a + 1; i < b ; i = i + 1){
+            //  pour tester si chaque nombre i est pair , on verifie que son modulo(le reste de la division)2 soit egal a 0, signifiant quil est bien multiple de 2
+             if(i % 2 == 0) { 
+                 resultat = resultat + i;
+             }
+             console.log(resultat);
+         }
+        
+       
+    </script>
+</body>
+</html>

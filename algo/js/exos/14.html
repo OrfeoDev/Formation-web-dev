@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercice 14 </title>
+</head>
+
+<body>
+    Objetif: Implementer un FizzBuzz
+    - Afficher les nombres de 1 à 100
+    - En remplacant les nombres divisibles par 3 par fizz
+    - En remplacant les nombres divisibles par 5 par Buzz
+    - En remplacant les nombres divisibles par 3 et par 5 FizzBuzz
+
+    <script>
+
+        //on compte de 1 à 100
+        for (let i = 1; i <= 100; i++){
+                //si le nombre est divisible par 3 et par 5
+                if (i%3 == 0 && i%5 == 0){
+                    console.log("FizzBuzz")
+                } else if (i%3 == 0) {
+                    //sinon si le nombre est divisible par 3
+                    //on affiche Fizz dans la console
+                    console.log("Fizz");
+                } else if (i%5 == 0){
+                    //sinon si le nombre est divisible par 5
+                    //on affiche Buzz dans la console
+                    console.log("Buzz");
+                } else {
+                    //si le nombre n'est ni divisible par 3 ou 5
+                    //on finit par afficher ce nombre
+                    console.log(i)
+                } 
+                
+            }
+
+    </script>
+</body>
+
+</html>

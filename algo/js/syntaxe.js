@@ -26,10 +26,15 @@ neChangeraJamais = 13;// impossible, javascript empechera l'affectation
 // Une condition se fait sur evaluation d'un booleen(vrai/faux), souvent a l'issue dune comparaison entre deux valeurs.
 // pour effectuer des comparaisons Js possede diferents operateurs
 /*
-== egalite
-!= difference
->superiorite strict
-<
+== égalité 
+!= différence
+> supériorité stricte
+< inferiorité stricte
+>= supériorité ou égalité
+<= inferiorité ou égalité
+=== égalité stricte
+!== différence stricte
+
 
 
 

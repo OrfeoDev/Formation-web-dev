@@ -1,0 +1,46 @@
+/* Pour apprehender le design adaptatif la logique veut que l'on commence par le design
+modile(qui represente la majorite des peripheriques navigant sur le web */
+/* nos regles css de base sont adaptees a un design sur ecran de largeur reduite, d'ou notre orientation en colonne
+pour notre flexbox */
+
+.container{
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 80%;
+}
+
+.block{
+    font-size: 2em;
+    width: 150px;
+    height: 200px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+.optional-image{
+    display: none;
+}
+/* Pour pouvoir separer les regles css pour mobile et celles pour les autres dispositifs(tablettes et pc la pluplart du temps) on peut utiliser une requete media (media query:https://developer.mozilla.org/fr/docs/web/css/media_query:using_media_query) */
+/* ces requetes media peremettent d'appliquer des regles css selon des conditions liees au peripheriques de lecture  (la taille,les preferenceces utilisateurs,etc*/
+/* Ici on precise que les regles appliquees seront pour des ecrans (screen) ET de largeur minimale de 468px (min-width) */
+
+
+ @media screen and (min-width:468px) {
+     .container{
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .optional-image{
+         display: block;
+     }
+ }
+@media screen and (min-width:992px) {
+    .container{
+        background-color: red;
+    }
+    
+}

@@ -2,9 +2,8 @@ body{
     background-color: rgb(95, 84, 238);
 }
 .card{
-    margin: auto;
-    height: 375px;
-    width: 550px;
+    height: 390px;
+    width: 590px;
     border-radius: 10px;
     background-color:white;
     font-family: "Chivo", sans-serif;
@@ -13,6 +12,7 @@ body{
     display: flex;
 }
 .name{
+    margin: 33px 5px;
     text-align:center;
    
 }
@@ -20,22 +20,36 @@ body{
      display: flex;
 } */
 .picture{
+    margin:10px 25px 35px 20px;
     border-radius: 50%;
 }
 
 .footer{
-margin-bottom: 200px;
    display: flex;
 justify-content: space-around;
 }
 .date-heure {
 
     flex-direction: row;
-    display: flex;
-    justify-content: space-evenly;
+    
+    display: flex; 
+    /* justify-content:space-around; */
 }
 .text-light{
-    color: white;
+    color:#757575;
     font-weight: 400;
 }
- 
+.text-regular{
+    color: #282828;
+    font-weight: 400;
+}
+.date{
+    margin: 0 35px;
+}
+.heure>h3{
+margin-left: 25px;
+}
+    
+.texte{
+    margin: 0 25px;
+}

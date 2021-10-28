@@ -1,0 +1,41 @@
+body{
+    background-color:grey;
+}
+@media screen and (min-width:468px){
+    .container{
+        font-family: "Chivo", Arial, sans-serif sans-serif;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        }
+        .optional-image{
+            display: block;
+        }
+}
+
+.card-1{
+    text-align: center;
+    color:white;
+    height: 400px;
+    width:200px;
+    background-color: #1e6091;
+}
+.card-2{
+    text-align: center;
+    color:white;
+    background-color: #34a0a4;
+    height: 400px;
+    width: 200px;
+}
+.card-3{
+    text-align: center;
+    color:white;
+    background-color: #76c893;
+    height: 400px;
+    width: 200px;
+}
+span>h3{
+    background-color: white;
+    border:  solid 1px rgb(230, 41, 41);;
+color: black;
+}

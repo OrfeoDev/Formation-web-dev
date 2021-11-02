@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(126, 126, 128);
+    
+}
+
+@media screen and (min-width:601px) {
+    .container{
+        
+       
+        font-family: "Chivo" Arial, Helvetica, sans-serif;
+        background-color: rgb(165, 165, 165);
+        
+    }
+    .fonction{
+        
+        display: flex;
+    flex-wrap: wrap-reverse ;
+ justify-content:space-around;  
+    }
+     
+}
+ p{ text-align: center;} 
+
+.fonctionnalite-1{
+    
+    box-shadow:0 10px 15px 5px #444343 ,0px -5px #34a0a4,5px 5px 3px #6f6f6f;
+    height: 200px;
+    width: 300px;
+background-color:white;
+}
+
+
+.btn-1{
+
+    color: white;
+    font-size: 1em;
+    background-color:#34a0a4 ;
+}
+ .fonctionnalite-2{
+    
+    box-shadow: 0 10px 15px 5px #444343,0px -5px #eb7d7d,5px 5px 3px #6f6f6f;
+    height: 200px;
+    width: 300px;
+background-color:white;
+}
+.btn-2{
+    color: white;
+    font-size: 1em;
+    background-color: #eb7d7d;
+}
+.fonctionnalite-3{
+    
+    box-shadow:0 10px 15px 5px #444343 ,0px -5px #6fbfe1,5px 5px 3px #6f6f6f;
+    height: 200px;
+    width: 300px;
+background-color:white;
+}
+
+.btn-3{
+    color: white;
+    font-size: 1em;
+    background-color: #6fbfe1;
+
+}
+.fonctionnalite-4{ 
+        
+    box-shadow:0 10px 15px 5px #444343 ,0px -5px #ffb489,5px 5px 3px #6f6f6f;
+    height: 200px;
+    width: 300px;
+background-color:white;
+}
+.btn-4{
+    background-color:#ffb489;
+    font-size: 1em;
+    color:white;
+    
+}
+     

@@ -1,7 +1,7 @@
 body{
     background-color:grey;
 }
-@media screen and (min-width:468px){
+@media screen and (min-width:600px){
     .container{
         font-family: "Chivo", Arial, sans-serif sans-serif;
         display: flex;
@@ -20,12 +20,19 @@ body{
     width:200px;
     background-color: #1e6091;
 }
+.btn-1{
+  
+    color: #1e6091;
+}
 .card-2{
     text-align: center;
     color:white;
     background-color: #34a0a4;
     height: 400px;
     width: 200px;
+}
+.btn-2{
+    color: #34a0a4;
 }
 .card-3{
     text-align: center;
@@ -34,8 +41,18 @@ body{
     height: 400px;
     width: 200px;
 }
-span>h3{
+.btn-3{
+    color: #76c893;
+}
+
+
+ button{ 
+    font-weight: 700px;
+    border: solid white;
     background-color: white;
-    border:  solid 1px rgb(230, 41, 41);;
-color: black;
+    height: 40px;
+    width: 90px;
+    border-radius: 40px 40px 40px 40px;
+  margin-top:60px ;
+  margin-left: -40px;
 }

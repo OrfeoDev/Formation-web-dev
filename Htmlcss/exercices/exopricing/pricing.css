@@ -1,19 +1,20 @@
 body{
     background-color: rgb(168, 158, 158);
      text-align: center; 
+     font-family: 'Kalam',Georgia, 'Times New Roman', Times, serif;
     }
 
-@media screen and (min-width:601px){
+@media screen and (min-width:634px){
     .container{
         padding: 90px;
         margin:0px 00px 0px 120px; 
-        font-family: "Chivo", Arial, sans-serif sans-serif;
+        
         display: flex;
         flex-direction: row;
         background-color:  rgb(141,159,207);
         background: linear-gradient(90deg, rgba(141,159,207,1) 0%, rgba(199,173,210,1) 38%, rgba(200,173,210,1) 45%, rgba(200,173,210,1) 93%, rgba(226,177,198,1) 100%); 
-        height: 600px;
-        width: 900px;
+        /* height: 600px;
+        width: 900px;  */
         }
         
         .optional-image{
@@ -23,33 +24,35 @@ body{
 }
 
 .card-1{
-    margin: 5px;
+    
+    margin: -5px;
     border-radius: 8px;
          border: groove 1px gray;
     background-color: white;
-        height: 400px;
-        width: 300px;
+         /* height: 400px;
+        width: 300px;  */
         
 }
 
 .card-2{
-    box-shadow: -1px 1px 1px 2px;
+    box-shadow:  2px 12px 22px 5px;
     margin: 5px;
     border-radius: 8px;
          border: groove 1px gray;
     background-color: white;
-    height: 400px;
-        width: 300px;   
+    z-index: 2;
+    /* height: 400px;
+        width: 300px;    */
 
 }
 
 .card-3{
-    margin: 5px;
+    margin: -5px;
     border-radius: 8px;
          border: groove 1px gray;
     background-color: white;
-        height: 400px;
-        width: 300px;
+        /* /* height: 400px; 
+        width: 300px; */
         
 }
     
@@ -99,13 +102,13 @@ span{
 background-color: white;
     
 }
-.btn1{
+ .btn1{
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
     margin:140px 5px 5px;
     background-color: #2f3e75;
 color: white;
-}
+} 
 
 .btn2{
     border-radius: 5px;
